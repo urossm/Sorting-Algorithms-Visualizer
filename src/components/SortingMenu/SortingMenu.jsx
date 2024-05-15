@@ -48,7 +48,7 @@ function SortingMenu() {
 					Sort Algorithm:
 				</div>
 				<select value={selectedSort} onChange={handleSortChange}>
-					<option value={1}>Bubble Sort</option>
+					<option value={0}>Bubble Sort</option>
 					<option value={1}>Quick Sort</option>
 					<option value={2}>Merge Sort</option>
 					<option value={3}>Heap Sort</option>
